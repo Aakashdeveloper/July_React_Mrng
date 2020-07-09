@@ -1,0 +1,90 @@
+Basic JavaScript
+Npm
+
+React = 3
+React_hooks -1
+React-Redux =2
+React-Saga -1
+React-GarphQL 1
+React-JWT(Login Logut)-1
+Basic React Native=1
+----------------------
+Testing
+
+Depolyment
+-> MERN
+-> Docker
+-> Nginx
+
+Mock API
+json-server
+
+Github
+
+--------NOT--------------
+API
+GarphQL
+Login/Logout
+
+////////////////////////////////////////////
+SPA
+Single Page Appliation
+
+React is a JavaScript framwrok that help
+to build single page application
+using component based strucutre
+
+Open Source
+
+npm> Node Package manager
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>NodeJS<<<<<<<<<<<<<<<<<<<<<<
+package.json
+
+json> Javascript Object notation
+Way to represent the data
+[
+    {
+        name:"john",
+        class:"ui"
+    },
+    {
+        name:"Alvin",
+        class:"react"
+    }
+]
+
+package.json
+> Starting Point to application
+> help to manage package
+> META data
+> Script
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Step to create package.json
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+**NodeJs must be installed in system
+> Navgate to the folder using cmd/Terminal
+> npm init
+> Answer all question
+> type "yes"
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Step to install packages
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Depenedency
+Node_modules
+packages
+Node packages
+
+Local > local to each folder
+> Navgate to the folder using cmd/Terminal
+> npm install package name / npm i package name
+
+Global>
+Setup React Appliation
+Component
