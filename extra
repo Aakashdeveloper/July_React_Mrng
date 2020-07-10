@@ -85,6 +85,45 @@ Local > local to each folder
 > Navgate to the folder using cmd/Terminal
 > npm install package name / npm i package name
 
-Global>
+Global> insatlled into to the system 
+Global Packages are generlly use to generte application
+We only install them one time in the system
+We need admin access to install global packages
+They dont added in package.json
+We only use global packages at the time of development
+
 Setup React Appliation
 Component
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Step to generate react app/ install global package
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//One time
+#window
+> run cmd as admin
+> npm i -g create-react-app 
+----------------------------------------
+#mac/linux
+> open termnal
+> sudo npm i -g create-react-app
+
+>>>>To Generate the app<<<<
+> Navigate to the folder where you want to generate app using cmd/terminal
+> create-react-app appname
+
+>>>>How to run the Application<<<<
+> Using cmd/termianl Navigate into app folder
+> npm start 
+> http://localhost:3000
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Component
+<<<<<<<<<<<<<<<<<<<<<<<<
+Functional       ClassBase
+
+
+>>>>>>>>>>>>>>>>>>>>
+Folder walkthrough
+Explain Components
+First Component
