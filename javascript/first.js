@@ -57,3 +57,8 @@ Uncaught TypeError: Assignment to constant variable.
 >
 
 
+
+function add(){
+    var data = [a,b]
+    return data
+}

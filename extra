@@ -117,13 +117,20 @@ Step to generate react app/ install global package
 > http://localhost:3000
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HooksComponent
 Component
 <<<<<<<<<<<<<<<<<<<<<<<<
-Functional       ClassBase
+Functional                        ClassBase
+dumb component                 Logical Component
+Light in weight                Heavy as compare to Functional
+cannot maintain state          Can Maintain state
+Cannot call API                Can call API
+Display Component               
 
 
 >>>>>>>>>>>>>>>>>>>>
 Folder walkthrough
 Explain Components
 First Component
+
+JSX
