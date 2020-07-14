@@ -129,8 +129,19 @@ Display Component
 
 
 >>>>>>>>>>>>>>>>>>>>
-Folder walkthrough
-Explain Components
-First Component
+State> State Act like a local variable
+       Any Data interaction happen through state
+Props > help to transfer state/data
 
-JSX
+class component we call API
+        ||
+        || Data
+Functional Component through prop
+
+componentA       Props           ComponentB
+stateA  >>>>>>>>>>>>>>>>>>>>>>>>>StateB
+
+///////////////////////////////////////////////////
+CSS
+Event
+update the state
