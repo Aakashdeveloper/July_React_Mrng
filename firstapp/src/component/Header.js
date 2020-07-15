@@ -1,36 +1,35 @@
 import React,{Component} from 'react';
+import './Header.css'
 
 class Header extends Component{
     constructor(){
         super()
 
         this.state={
-            title:'My React App'
+            title:'My React App',
+            keyword:'User Text Here'
         }
+    }
+
+    handleChange = (event) => {
+        this.setState({keyword:event.target.value?event.target.value:'User Text Here'})
     }
    
     render(){
         return (
             <React.Fragment>
-                <center>
-                    <h1>{this.state.title}</h1>
-                </center>
-                <hr/>
+                <header>
+                    <div className="logo">{this.state.title}</div>
+                    <center>
+                        <input type="text" 
+                        onChange={this.handleChange}/>
+                        <p>{this.state.keyword}</p>
+                    </center>
+                    <hr/>
+                </header>
             </React.Fragment>
-           
         )
     }
 }
 
 export default Header;
-/*const Header = () => {
-    return (
-        <React.Fragment>
-            <center>
-                <h1>React App</h1>
-            </center>
-            <hr/>
-        </React.Fragment>
-    )
-}
-*/

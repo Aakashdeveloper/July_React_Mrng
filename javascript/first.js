@@ -62,3 +62,17 @@ function add(){
     var data = [a,b]
     return data
 }
+
+
+
+
+var a = 10
+
+a>10 ? "hi":"bie"
+"bie"
+a == 10 ?"Hiii":"Bie"
+"Hiii"
+a == 10 ?a+1:a-1
+11
+a >10 ?a+1:a-1
+9
