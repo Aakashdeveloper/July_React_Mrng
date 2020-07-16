@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 import './Header.css'
 
 class Header extends Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
 
         this.state={
             title:'My React App',
@@ -13,6 +13,7 @@ class Header extends Component{
 
     handleChange = (event) => {
         this.setState({keyword:event.target.value?event.target.value:'User Text Here'})
+        this.props.userText(event.target.value)
     }
    
     render(){

@@ -151,3 +151,42 @@ filter
 Map in JavaScript
 filter in Javascript
 indexof in javascript
+
+
+//////////////
+var a = [2,4,6,8]
+a.map((data) => { return data*2})
+(4) [4, 8, 12, 16]
+
+var age = [34,24,56,12,37,29]
+undefined
+age.filter((data)=> {return data>25})
+(4) [34, 56, 37, 29]
+age.map((data)=> {return data>25})
+(6) [true, false, true, false, true, true]
+
+filter return only those for which condition is true
+map always return the same length of array 
+filter may or may not return same length of array
+
+
+
+
+var a = [0,1,2,3]
+a.map((data) => { return data*2})
+(4) [0, 2, 4, 6]
+a.filter((data) => { return data*2})
+(3) [1, 2, 3]
+
+var city = ["London","Amsterdam","Paris","Helsinki","Delhi"]
+undefined
+city.indexOf('Delhi')
+4
+city.indexOf('Paris')
+2
+city.indexOf('London')
+0
+city.indexOf('Mumbai')
+-1
+city.indexOf('Pune')
+-1
