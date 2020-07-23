@@ -5,6 +5,7 @@ const Headers = () => {
     return(
         <header>
             <Link to="/">Home</Link>
+            <Link to="/forms">Forms</Link>
         </header>
 
     )
