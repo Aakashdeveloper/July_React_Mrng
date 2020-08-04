@@ -5,4 +5,4 @@ import reducer from '../reducer';
 
 let store = createStore(reducer,applyMiddleware(logger));
 
-export default store;
+export default store;   

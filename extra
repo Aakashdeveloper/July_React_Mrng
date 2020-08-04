@@ -214,3 +214,5 @@ only write code once and resume
 Now we can pass data from non-nested component
 
 npm i redux react-redux
+
+npm i redux react-redux redux-promise react-slick react-router-dom prop-types redux-logger
