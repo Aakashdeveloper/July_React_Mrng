@@ -3,8 +3,8 @@ Npm
 
 React = 3
 React_hooks -1
-------------------------
 React-Redux =2
+------------------------
 React-JWT(Login Logut)-1
 React-Saga -1
 React-GarphQL 1
@@ -216,3 +216,23 @@ Now we can pass data from non-nested component
 npm i redux react-redux
 
 npm i redux react-redux redux-promise react-slick react-router-dom prop-types redux-logger
+
+
+//////////////
+/******GetAllUser*****/
+(GET)> http://localhost:5000/api/auth/users
+
+/******Register*****/
+(POST)> http://localhost:5000/api/auth/register
+(body) => {"name":"Aakash", "email":"aa@gmail.com","password":"12345678","role":"user?"}
+
+
+/******Login*****/
+(POST) => http://localhost:5000/api/auth/login
+(body)  => {"email":"aa@gmail.com","password":"12345678"}
+(response)=> {auth:true,token:'dgsdg'}
+
+/******UserInfo*****/
+(GET) => http://localhost:5000/api/auth/userinfo
+(Header) => {'x-access-token':'token value from login'}
+(response) => {userinfo}
