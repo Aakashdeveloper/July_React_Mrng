@@ -5,15 +5,14 @@ React = 3
 React_hooks -1
 React-Redux =2
 React-JWT(Login Logut)-1
+React-GarphQL 1
+Depolyment
+-> MERN
 ------------------------
 React-Saga -1
-React-GarphQL 1
 Basic React Native=1
 ----------------------
 Testing
-
-Depolyment
--> MERN
 -> Docker
 -> Nginx
 
@@ -235,3 +234,36 @@ npm i redux react-redux redux-promise react-slick react-router-dom prop-types re
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+
+
+//////////////////////////////////////////
+npm i apollo-boost graphql graphql-tag react-apollo
+
+
+//////////
+Setup react Native
+///////
+npm i -g create-react-native-app
+create-react-native-app mymobi
+
+npm i expo
+npm i -g expo
+
+expo app 
+
+
+///////
+linux
+mac
+window 10 pro 
+
+///////////////////////////////////
+docker download
+
+docker build . -t julymrng
+docker run -p 8086:3000 julymrng
+
+
+//////////
+npm i enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
