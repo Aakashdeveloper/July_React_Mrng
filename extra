@@ -267,3 +267,6 @@ docker run -p 8086:3000 julymrng
 
 //////////
 npm i enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
+
+https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial
